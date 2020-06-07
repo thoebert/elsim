@@ -41,8 +41,8 @@ Install the newest JDK, for example, OpenJDK14.
 
 Clone the repository into your current directory and open it.
 ```
-git clone https://github.com/thoebert/ElevatorSimulation.git
-cd ElevatorSimulation
+git clone https://github.com/thoebert/elsim.git
+cd elsim
 ```
 
 ### Build & Run
