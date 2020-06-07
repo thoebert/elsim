@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'thoebert'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation('org.junit.jupiter:junit-jupiter:5.6.2')
+}
+
+mainClassName = 'thoebert.elsim.Simulator'
+
+test {
+    useJUnitPlatform()
+}
